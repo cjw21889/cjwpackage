@@ -4,9 +4,10 @@
 """
 
 from os.path import split
+import selenium
+import chromedriver_binary
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import chromedriver_binary
 
 
 
