@@ -20,6 +20,7 @@ def try_me():
     screen = driver.find_element_by_class_name('ytp-fullscreen-button')
     screen.click()
     play.click()
+    return 'hello'
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython

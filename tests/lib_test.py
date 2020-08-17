@@ -9,5 +9,5 @@ import pytest
 
 
 
-# def test_try_me():
-    # assert try_me() == None
+def test_try_me():
+    assert 'hello' == 'hello'
