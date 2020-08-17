@@ -23,4 +23,4 @@ if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
     import cjwpackage
     folder_source, _ = split(cjwpackage.__file__)
-    try_me()
+    # try_me()
