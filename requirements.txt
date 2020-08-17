@@ -10,3 +10,4 @@ yapf
 python-gitlab
 twine
 selenium
+chromedriver-binary
