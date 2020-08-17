@@ -4,6 +4,10 @@
 # Import from the standard library
 from os.path import split
 import argparse
+import selenium
+import chromedriver_binary
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 
 # Import from cjwpackage
