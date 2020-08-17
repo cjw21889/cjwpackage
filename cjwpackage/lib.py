@@ -17,6 +17,8 @@ def try_me():
     driver = webdriver.Chrome(options=options)
     driver.get('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
     play = driver.find_element_by_class_name('ytp-large-play-button')
+    screen = driver.find_element_by_class_name('ytp-fullscreen-button')
+    screen.click()
     play.click()
 
 if __name__ == '__main__':
